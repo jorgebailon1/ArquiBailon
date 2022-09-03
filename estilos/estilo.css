@@ -1,8 +1,7 @@
 .paginaPrincipal{
     /* imagen del hero y dimensiones */
-    width: 100%;
     height: 735px;
-    margin-right: 0%;
+    margin-right: 0;
     background-image: url("../image/imagen-tc-scaled-e1610632729734.jpg");
     background-position: center;
     background-size: 270vh;
@@ -11,13 +10,10 @@
 }
 .fondo__transparente {
     /* Estilo de fondo transparente */
-    
     top: 0;
     left: 0;
-    width: 100%;
     height: 735px;
     background-color: rgba(15, 15, 15, 0.562);
-    
     color: white;
 }
 .contenedor {
@@ -66,7 +62,7 @@
     background-color: #ffebcd;
 }
 /*SERVICIOS*/
-.servicio h2{
+.servicio h1{
     text-align: center;
 }
 .servicio h3{
@@ -74,6 +70,10 @@
 }
 .servicio p{
     text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 300px;
 }
 .col{
     cursor: pointer;
@@ -91,7 +91,7 @@
     background-color: rgba(65, 64, 64, 0.315);
     height: 750px;
 }
-.obras h3{
+.obras h1{
     text-align: center;
     padding-top: 10px;
 }
@@ -108,39 +108,14 @@
     background-color: #0000009f;
 }
 /*CONTACTO*/
-.contactos{
-    background-image: url(../image/gonda-goldschmied-building.jpg);
-    background-repeat: no-repeat;
-    background-size: 220vh;
-    height: 550px;
-    
-}
-.contactos h2{
+.container h1{
     text-align: center;
-    font-family:sans-serif
-}
-.form__labe{
-    padding-left: 300px;
-    font-size: 25px;
-    margin-bottom: 40px;
-    padding-top: 30px;
-}
-
-.form__label{
-    padding-left: 300px;
-    font-size: 25px;
-    margin-bottom: 40px;
-}
-
-.btn__submit{
-    padding-left: 300px;
-    font-size: 25px;
-    margin-bottom: 50px;
+    font-family:sans-serif;
 }
 .boton{
     font-family: inherit;
     font-size: 20px;
-    background: royalblue;
+    background: rgb(71, 64, 55);
     color: white;
     padding: 0.7em 1em;
     padding-left: 0.9em;
@@ -189,28 +164,27 @@ button:active {
     transform: translateY(-0.1em);
     }
 }
+/*CONTACTOS*/
+
 /*PASO A PASO*/
-.paso{
-    height: 800px;
-    background-image:  url(../image/85994.webp);
-}
 .titulo{
     text-align: center;
     padding-top: 20px;
-    font-size: 30px;
 }
 .row{
     top: 300px;
 }
+.btn{
+    background-color: rgb(112, 74, 23);
+    color: rgb(250, 253, 255);
+}
 .col-lg-4{
     padding-top: 100px;
-    background-color: rgba(240, 248, 255, 0.664);
+    background-color: rgba(150, 144, 123, 0.664);
 }
 .container{
     cursor: pointer;
 }
-
-
 .imagenpaso{
     border-radius: 1000px;
 }
