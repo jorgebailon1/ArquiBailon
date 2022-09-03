@@ -107,10 +107,29 @@
 .carousel p{
     background-color: #0000009f;
 }
+.descripcion{
+    margin-top: 30px;
+}
+.imagen_des{
+    width: 400px;
+    height: 400px;
+}
+.descr{
+    display: grid;
+    justify-content: end;
+}
+.des{
+    display: grid;
+    align-content: center;
+}
+
 /*CONTACTO*/
 .container h1{
     text-align: center;
     font-family:sans-serif;
+}
+.img{
+    background-repeat: no-repeat;
 }
 .boton{
     font-family: inherit;
@@ -231,5 +250,8 @@ iframe{
 }
 @media screen and (min-width: 390px) and (max-width: 500px) {
 
-    
+    .imagen_des{
+        width: 360px;
+        height: 300px;
+    }
 }
