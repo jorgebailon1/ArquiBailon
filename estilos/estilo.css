@@ -165,13 +165,16 @@ button:active {
     }
 }
 /*CONTACTOS*/
+.container h1{
+    margin-top: 70px;
+}
 .mb-3{
     margin-left: 0px;
 }
 /*PASO A PASO*/
 .titulo{
     text-align: center;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 .row{
     top: 300px;
@@ -192,12 +195,11 @@ button:active {
 }
 .boton{
     margin: 0;
-    
 }
 iframe{
     margin-top: 20px;
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 /*FOOTER*/
 .footer{

@@ -12,9 +12,41 @@
     <link rel="stylesheet" href="../estilos/estilo.css">
 </head>
 <body>
-    <header>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Arquic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/servicio.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="pages/obras.html">OBRAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="pages/pasos.html">PASO A PASO</a>
+              </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar aqui" aria-label="Search">
+            <button class="btn " type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header> <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
+          <div class="container">
             <a class="navbar-brand" href="../index.html">Arquic</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,7 +57,7 @@
                   <a class="nav-link" href="../index.html">INICIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">SERVICIOS</a>
+                  <a class="nav-link" href="servicio.html">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link"  href="obras.html">OBRAS</a>
@@ -39,81 +71,80 @@
               </ul>
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar aqui" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                <button class="btn " type="submit">Buscar</button>
               </form>
             </div>
           </div>
         </nav>
       </header>
 <main>
-      <section class="servicio">
-        <h2>SERVICIOS</h2>
-        <h3>Decoracion de interiores</h3>
-        <p>Porque la decoración es fundamental para sentirse a gusto en casa: los mejores consejos e ideas para dormitorios donde conseguir un profundo descanso, comedores con los que deslumbrar a tus invitados, salones minimalistas y acogedores, rincones de estudio que te ayuden a concentrarte o habitaciones donde los más pequeños puedan desarrollarse a su ritmo. Decoradores e interioristas expertos te cuentan todo lo que debes saber antes de reformar y decorar un espacio para que puedas sacarle el máximo partido. Te contamos quiénes son los mejores profesionales, los materiales más adecuados, los productos que arrasan en las tiendas, las tendencias en decoración más actuales, lo que funciona y lo que no en la aventura de crear una casa a tu medida.</p>
-        <div class="album py-5 bg-light">
-            <div class="container">
-        
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
+          <!--SERVICIOS-->
+    <section class="container">
+      <h1>SERVICIOS</h1>
+      <h3>Decoracion de interiores</h3>
+      <p>Porque la decoración es fundamental para sentirse a gusto en casa: los mejores consejos e ideas para dormitorios donde conseguir un profundo descanso, comedores con los que deslumbrar a tus invitados, salones minimalistas y acogedores, rincones de estudio que te ayuden a concentrarte o habitaciones donde los más pequeños puedan desarrollarse a su ritmo. Decoradores e interioristas expertos te cuentan todo lo que debes saber antes de reformar y decorar un espacio para que puedas sacarle el máximo partido. Te contamos quiénes son los mejores profesionales, los materiales más adecuados, los productos que arrasan en las tiendas, las tendencias en decoración más actuales, lo que funciona y lo que no en la aventura de crear una casa a tu medida.</p>
+      <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="../image/5ad9ab32831460c8a6050b380bd4de6d.jpg" alt="fachadas">
+      
+                  <div class="card d-flex justify-content-between align-items-center">
+                    <h4>Fachadas</h4>
+                    <p class="card-text">Modelo de fachada contemporánea grande de dos plantas con revestimiento de piedra y tejado plano. Descubri todas las opciones para vos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="../image/cocina4.jpg" alt="cocinas">
+                  <div class="card d-flex justify-content-between align-items-center">
+                    <h4> Cocinas</h4>
+                    <p class="card-text">Aprovechar las paredes o alargar armarios ayuda a rentabilizar los centímetros cuando no hay suficientes metros. Estas ideas te ayudarán en tu cocina pequeña.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col">
                   <div class="card shadow-sm">
-                    <img src="../image/5ad9ab32831460c8a6050b380bd4de6d.jpg" alt="">
-        
+                    <img src="../image/BAÑOS.jpg" alt="baños">
                     <div class="card d-flex justify-content-between align-items-center">
-                      <h4>Fachadas</h4>
-                      <p class="card-text">Modelo de fachada contemporánea grande de dos plantas con revestimiento de piedra y tejado plano. Descubri todas las opciones para vos.</p>
+                      <h4> Baños modernos </h4>
+                      <p class="card-text">Descubre los muebles de baño que más encajan contigo, o elige lavabos, inodoros o bañeras para reformarlo por completo.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card shadow-sm">
-                    <img src="../image/cocina4.jpg" alt="">
+                    <img src="../image/living.jpg" alt="livings">
                     <div class="card d-flex justify-content-between align-items-center">
-                        <h4> Cocinas</h4>
-                      <p class="card-text">Aprovechar las paredes o alargar armarios ayuda a rentabilizar los centímetros cuando no hay suficientes metros. Estas ideas te ayudarán en tu cocina pequeña.</p>
-                      
+                      <h4>Livings</h4>
+                      <p class="card-text">Te mostramos fotos de diseños de interiores de living de todos los estilos para que elijas el tuyo.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="../image/BAÑOS.jpg" alt="">
-                      <div class="card d-flex justify-content-between align-items-center">
-                        <h4> Baños modernos </h4>
-                        <p class="card-text">Descubre los muebles de baño que más encajan contigo, o elige lavabos, inodoros o bañeras para reformarlo por completo.
-
-                            .</p>
-                      </div>
+                  <div class="card shadow-sm">
+                    <img src="../image/dormitorio2.jpg.crdownload" alt="dormitorios">
+                    <div class="card d-flex justify-content-between align-items-center">
+                      <h4>Dormitorios</h4>
+                      <p class="card-text">Te enseñamos las claves que usan los interioristas para organizar el espacio y la iluminación para favorecer el descanso y la relajación..</p>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="../image/living.jpg" alt="">
-                      <div class="card d-flex justify-content-between align-items-center">
-                        <h4>Livings</h4>
-                        <p class="card-text">Te mostramos fotos de diseños de interiores de living de todos los estilos para que elijas el tuyo.</p>
-                      </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../image/exteriores.jfif" alt="exteriores">
+                    <div class="card d-flex justify-content-between align-items-center">
+                      <h4>Exteriores</h4>
+                      <p class="card-text">Descubre cómo elegir los mejores muebles para el exterior de tu casa y decorar tu jardín, terraza o piscina con estilo moderno: sillas, tumbonas, mesas, sombrillas...</p>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="../image/dormitorio2.jpg.crdownload" alt="">
-                      <div class="card d-flex justify-content-between align-items-center">
-                        <h4>Dormitorios</h4>
-                        <p class="card-text">Te enseñamos las claves que usan los interioristas para organizar el espacio y la iluminación para favorecer el descanso y la relajación..</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="../image/exteriores.jfif" alt="">
-                      <div class="card d-flex justify-content-between align-items-center">
-                        <h4>Exteriores</h4>
-                        <p class="card-text">Descubre cómo elegir los mejores muebles para el exterior de tu casa y decorar tu jardín, terraza o piscina con estilo moderno: sillas, tumbonas, mesas, sombrillas...</p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-    </section>
+                </div>
+          </div>
+  </section>
 </main>
 
 
