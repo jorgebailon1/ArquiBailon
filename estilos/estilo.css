@@ -165,7 +165,9 @@ button:active {
     }
 }
 /*CONTACTOS*/
-
+.mb-3{
+    margin-left: 0px;
+}
 /*PASO A PASO*/
 .titulo{
     text-align: center;
@@ -187,6 +189,15 @@ button:active {
 }
 .imagenpaso{
     border-radius: 1000px;
+}
+.boton{
+    margin: 0;
+    
+}
+iframe{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
 }
 /*FOOTER*/
 .footer{
@@ -215,4 +226,8 @@ button:active {
     color: aliceblue;
     text-align: center;
     padding-top: 30px;
+}
+@media screen and (min-width: 390px) and (max-width: 500px) {
+
+    
 }
