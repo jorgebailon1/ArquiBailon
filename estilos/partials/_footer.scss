@@ -1,0 +1,31 @@
+/*FOOTER*/
+.footer{
+    margin-top: 30px;
+    background-color: rgb(36, 36, 36);
+    height: 200px;
+    .conteiner{
+        h4{
+            color:$primaryColor;
+            padding-bottom: 30px;
+            text-align: $textAling;
+        }
+        .copy{
+            color:$primaryColor;
+            text-align: $textAling;
+            padding-top: 30px;
+        }
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: 0;
+        color:$primaryColor;
+        text-decoration: none;
+        a{
+            font-size: 20px;
+            padding: 0 20px 0 20px;
+            color:$primaryColor;
+        }
+    }
+}

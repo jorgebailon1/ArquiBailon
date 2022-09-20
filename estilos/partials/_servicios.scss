@@ -1,0 +1,30 @@
+/*SERVICIOS*/
+.container{
+    padding: 0;
+    h1{
+        text-align: $textAling;
+    }
+    h3{
+        padding-left: 60px;
+    }
+    p{
+        text-align:$textAling;
+    }
+    .row{
+        .col{
+            .card{
+                .ser{
+                    width: 100%;
+                    height: 300px;
+                }
+                cursor: pointer;
+                transition: all 1s;
+                &:hover{
+                    transform: scale(1.05);
+                    transition-duration: 1.5s;
+                    }
+                }
+            }
+    }
+}
+    
