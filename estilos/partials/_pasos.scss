@@ -14,17 +14,18 @@
     }
     .col-lg-4{
         padding-top: 100px;
-        background-color: rgba(150, 144, 123, 0.664);
+        background-color: rgba(230, 223, 201, 0.664);
+        h2{
+            text-align: center;
+        }
     }
     .imagenpaso{
         border-radius: 1000px;
+        display:block;
+        margin:auto;
     }
     .boton{
         margin: 0;
     }
-    iframe{
-        margin-top: 20px;
-        width: 100%;
-        height: 250px;
-    }
+    
 }
